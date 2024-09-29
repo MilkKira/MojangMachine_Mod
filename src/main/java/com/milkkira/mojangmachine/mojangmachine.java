@@ -35,17 +35,19 @@ public class mojangmachine
 
         modItems.register(modEventBus);
 
-
+/*
         modEventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading
         modEventBus.addListener(this::enqueueIMC);
         // Register the processIMC method for modloading
         modEventBus.addListener(this::processIMC);
 
+ */
+
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
-
+/*
     private void setup(final FMLCommonSetupEvent event)
     {
         // some preinit code
@@ -66,6 +68,10 @@ public class mojangmachine
                 map(m->m.messageSupplier().get()).
                 collect(Collectors.toList()));
     }
+
+ */
+
+
 /*
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
