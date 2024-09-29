@@ -8,7 +8,8 @@ public class modItemsGroup {
     public static  final CreativeModeTab mojangmachine_TAB = new CreativeModeTab("mojangmachineTab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(modItems.MOJANG_MACHINE_ITEM.get());
+            //ItemLike
+            return new ItemStack(modItems.MILK_ICON_ITEM.get());
         }
     };
 }

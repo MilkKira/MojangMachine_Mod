@@ -11,7 +11,7 @@ public class modItems {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, mojangmachine.MOD_ID);
 
-    public static final RegistryObject<Item> MOJANG_MACHINE_ITEM = ITEMS.register("milk_icon",
+    public static final RegistryObject<Item> MILK_ICON_ITEM = ITEMS.register("milk_icon",
             () -> new Item(new Item.Properties().tab(modItemsGroup.mojangmachine_TAB)));
 
 
