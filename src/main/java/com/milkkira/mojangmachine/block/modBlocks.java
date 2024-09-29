@@ -20,11 +20,12 @@ public class modBlocks {
 
 
     //注册方块
+    /*
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> tRegistryObject = BLOCKS.register(name, block);
         registerBlockItem(name, tRegistryObject);
         return tRegistryObject;
-    }
+    }*/
 
     //注册方块物品
     private static <T extends Block> void registerBlockItem(String name, Supplier<T> block) {

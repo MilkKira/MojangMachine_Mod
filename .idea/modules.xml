@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MojangMachine_Mod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MojangMachine_Mod.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MojangMachine_Mod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MojangMachine_Mod.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge-1.18.2-40.2.0-mdk.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge-1.18.2-40.2.0-mdk.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge-1.18.2-40.2.0-mdk.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge-1.18.2-40.2.0-mdk.test.iml" />
     </modules>
