@@ -1,6 +1,7 @@
 package com.milkkira.mojangmachine;
 
 import com.milkkira.mojangmachine.item.modItems;
+import com.milkkira.mojangmachine.block.modBlocks;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -34,6 +35,7 @@ public class mojangmachine
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         modItems.register(modEventBus);
+        modBlocks.regeister(modEventBus);
 
 /*
         modEventBus.addListener(this::setup);

@@ -1,4 +1,7 @@
 {
   "item.mojangmachine.milk_icon": "Milk Icon",
-  "itemGroup.mojangmachineTab": "MoJang Machine"
+
+  "itemGroup.mojangmachineTab": "MoJang Machine",
+
+  "block.mojangmachine.line_machine": "Line Machine Test"
 }

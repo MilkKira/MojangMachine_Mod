@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "mojangmachine:block/line_machine" }
+  }
+}
